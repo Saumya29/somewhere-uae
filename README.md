@@ -10,8 +10,8 @@ A React + Vite progressive web app for discovering UAE outings.
 Manifest and icons support home-screen installation. The service worker caches the app shell, guide, image and assets after first online visit. External source and Maps links need connectivity. New releases use a new service-worker cache name; existing tabs close before a waiting worker updates.
 
 ## Editorial integrity
-Data copied from outputs/uae-guide/UAE_Places_Collection.json on 20 October 2026. Current price, opening hours, access, bookings, coordinates and operating status are not verified. Preserve source links and caveats. Maps links are generated name searches. Illustrations describe an activity type, not an exact venue. Personal entries stay local.
+Data copied from outputs/uae-guide/UAE_Places_Collection.json on 20 October 2026. Current price, opening hours, access, bookings, coordinates and operating status are not verified. Preserve source links and caveats. Maps links are generated name searches. Places without a verified photo use text cards. Personal entries stay local.
 
 ## Design references and assets
-Structure inspiration: https://dribbble.com/shots/27034775-Travel-Discovery-Itinerary-Planning-Mobile-App-UI by Fokhrul Islam Suhan for Creliq. Original app layout, palette and SVG illustrations. No Dribbble artwork is used in the app.
-Al Fahidi photograph: https://unsplash.com/fr/s/photos/Al-Fahidi (image photo-1720754093410-434add6786b1), local optimized image. Fonts: DM Sans and Manrope via Google Fonts, with system fallbacks offline.
+Structure inspiration: https://dribbble.com/shots/27034775-Travel-Discovery-Itinerary-Planning-Mobile-App-UI by Fokhrul Islam Suhan for Creliq. Original app layout and palette. No Dribbble artwork is used in the app.
+Nine real location photographs from Wikimedia Commons. Complete photographer, source, original URL, licence and crop records are in `src/photos.json` and `public/images/CREDITS.json`. Credits appear in place details and a footer credits dialog. CC BY and CC BY-SA photo terms remain attached to the photographs. Responsive CSS crops the display; downloaded image files are unchanged. Fonts: DM Sans and Manrope via Google Fonts, with system fallbacks offline.
