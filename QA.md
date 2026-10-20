@@ -20,3 +20,14 @@
 - Checked phone layout at 390px: document width and scroll width both 390; card width 167.5px in the two-column grid.
 - Checked the Kite Beach photo, per-place credit, full nine-photo credits dialog and House of Wisdom detail without a photo.
 - All nine local photo files are included in the generated offline precache.
+
+## Help me pick
+- Six matching tests pass, including all 105 supported local emirate/time/mood combinations, strict indoor matching, sparse inventory, cross-emirate full days, and alternate-pick uniqueness.
+- Browser: Dubai + quick stop + water yields three local suggestions with reasons.
+- Browser: saving and adding Al Jadaf Waterfront from results updates saved/day-plan state.
+- Browser: Try other picks replaces the suggested set.
+- Browser: Umm Al Quwain + quick + indoors gives an honest empty state; Try any mood recovers one beach option.
+- Browser: full-day opt-in produces cross-emirate suggestions. Changing back to quick removes the cross-emirate control and restores local-only results.
+- Browser: Dubai + half day + indoors shows two matching places instead of adding an outdoor filler.
+- Phone check at 390 × 844: document client and scroll width both 390, with no horizontal overflow; controls and cards inspected.
+- Time suitability is an editorial heuristic. No actual route, visit-duration, opening-status, weather or price verification has been added.
